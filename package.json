@@ -1,0 +1,39 @@
+{
+  "name": "2ndapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.3.0",
+    "@prisma/client": "^5.22.0",
+    "axios": "^1.15.2",
+    "cloudinary": "^2.10.0",
+    "dayjs": "^1.11.20",
+    "dotenv": "^17.4.2",
+    "filesize": "^11.0.17",
+    "lucide-react": "^1.14.0",
+    "next": "16.2.4",
+    "next-cloudinary": "^6.17.5",
+    "prisma": "^5.22.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^20.19.39",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "daisyui": "^5.5.19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
