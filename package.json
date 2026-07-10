@@ -2,12 +2,13 @@
   "name": "2ndapp",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+"scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
-  },
+    "lint": "eslint",
+    "postinstall": "prisma generate"
+},
   "dependencies": {
     "@clerk/nextjs": "^7.3.0",
     "@prisma/client": "^5.22.0",
