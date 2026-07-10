@@ -21,11 +21,14 @@ interface CloudinaryUploadResult {
 }
 
 export async function POST(request: NextRequest) {
+    const { userId } = await auth()
 
-
+    if (!userId) {
+        return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+    }
+    
     try {
 
-        //todo to check user
 
     if(
         !process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME ||
